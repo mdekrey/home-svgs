@@ -233,7 +233,7 @@
 
     <g id="base-cabinets">
         <rect class="fill-wood-dark stroke-black" x="0" y="-4" width="126" height="4" />
-        <use href="#cabinet" x="0" y="-34" />
+        <use href="#drink-fridge-cabinet" x="0" y="-34" />
         <use href="#cabinet" x="18" y="-34" />
         <use href="#drink-fridge-cabinet" x="36" y="-34" />
         <use href="#cabinet" x="54" y="-34" />
@@ -253,7 +253,7 @@
         <use href="#wine-cabinet" x="90" y="-84" />
         <use href="#cabinet" x="108" y="-84" />
 
-        <line class="stroke-black stroke-half-inch" x1="42" x2="84" y1="-64" y2="-64" />
-        <line class="stroke-black stroke-half-inch" x1="42" x2="84" y1="-74" y2="-74" />
+        <line class="stroke-wood stroke-half-inch" x1="42" x2="84" y1="-64" y2="-64" />
+        <line class="stroke-wood stroke-half-inch" x1="42" x2="84" y1="-74" y2="-74" />
     </g>
 </svg>
