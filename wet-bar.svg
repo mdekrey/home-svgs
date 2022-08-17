@@ -5,6 +5,7 @@
         .fill-wood { fill: beige; }
         .fill-wood-dark { fill: burlywood; }
         .fill-tile-primary { fill: #384048; }
+        .fill-tile-inlay { fill: beige; }
         .fill-black { fill: black; }
         .fill-white { fill: white; }
         .fill-grout { fill: #444; }
@@ -35,16 +36,8 @@
             <!-- or 12.75 / √3 if using .25" grout -->
             <path class="fill-tile-primary stroke-none"
                 d="M-6.25 -3.608439 L-6.25 3.608439 L0 7.216878 L6.25 3.608439 L6.25 -3.608439 L0 -7.216878z" />
-            <path class="fill-none stroke-tile-inlay stroke-quarter-inch"
-                d="M0 7.216878z L0 -7.216878" />
-            <path class="fill-none stroke-tile-inlay stroke-quarter-inch"
-                d="M0 7.216878z L-6.25 -3.608439" />
-            <path class="fill-none stroke-tile-inlay stroke-quarter-inch"
-                d="M0 7.216878z L6.25 -3.608439" />
-            <path class="fill-none stroke-tile-inlay stroke-quarter-inch"
-                d="M0 7.216878z L-3.125 -5.4126585" />
-            <path class="fill-none stroke-tile-inlay stroke-quarter-inch"
-                d="M0 7.216878z L3.125 -5.4126585" />
+            <path class="fill-tile-inlay stroke-none"
+                d="M-6.25 3.608439 L0 7.216878 L6.25 3.608439z" />
         </g>
 
         <pattern id="tile-up" viewBox="-6.375 -11.041823 12.75 22.083646" width="12.75" height="22.083646" patternUnits="userSpaceOnUse">
